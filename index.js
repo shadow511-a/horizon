@@ -11,7 +11,7 @@ Client.commands = new Discord.Collection();
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Shadow511:FiRaZ274@17@85@!@horizoncluster.7d29a.mongodb.net/Data', {
+mongoose.connect('....', {
     useUnifiedTopology : true,
     useNewUrlParser : true,
 }).then(console.log('connected to mongodb'))
